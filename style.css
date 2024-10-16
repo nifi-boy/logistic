@@ -1,0 +1,167 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: lato;
+}
+
+.grid-container{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.container-1{
+    background-color: #790f0f;
+    padding: 4em 2em 2em 2em;
+}
+
+.container-1 h1{
+    color: white;
+    font-size: 2.5em;
+    font-weight: bold;
+    line-height: 1.6;
+}
+
+.container-1 p{
+    color: white;
+    font-size: 1.3em;
+    font-weight: bold;
+    line-height: 1.6;
+    margin: 2em 0;
+}
+
+.container-1 p span{
+    color: orange;
+}
+.container-2 {
+    margin: 0;
+    padding: 20px;
+    border-radius: 10px;
+   
+}
+
+
+
+.heading h1 {
+    text-align: center;
+    font-family: 'lato', sans-serif;
+    
+}
+
+.heading p {
+    text-align: center;
+    font-family: 'lato', sans-serif;
+   
+}
+
+.contact-container {
+    margin-top: 20px;
+    width: 100%;
+    margin-top: 20px; 
+    align-items: center;
+    border-radius: 1px solid black;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+}
+
+.name-inputs {
+    display: flex; 
+    justify-content: space-between; 
+    
+   
+}
+.name-inputs .input-control input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'lato', sans-serif;
+  
+}
+
+/*email */
+.email-container {
+    padding-top: 10px;
+     border-radius: 10px;
+ }
+ 
+.input-control .email input{
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'lato', sans-serif;
+}
+
+/*phone */
+.phone-input-container {
+   padding-top: 10px;
+    border-radius: 10px;
+}
+
+.input-wrap-usa {
+    display: flex;
+    align-items: center;
+}
+
+.usa-icon {
+    background-image: url('./usa.svg');
+    width: 24px;
+    height: 24px;
+    margin-right: 10px;
+}
+
+.input-wrap-usa input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    font-family: 'lato', sans-serif;
+}
+
+
+/*password */
+.password-requirements {
+    width: 100%; 
+    margin: 10px; 
+}
+
+.password-requirements td {
+    padding: 5px;
+    color: green; 
+}
+
+.icon {
+    width: 20px; 
+    height: 20px; 
+}
+
+.icon img {
+    width: 100%; 
+}
+.signup-container {
+    padding: 20px;
+  }
+  
+  .signup-container p {
+    color: black;
+    font-size: 14px;
+    padding-bottom: 20px;
+    padding-left: 10px;
+  }
+  
+  .signup-button {
+    background-color: orangered;
+    padding: 5px 200px;
+    font-size: larger; 
+    color: white;
+  
+  }
+  .signup-container span{
+    color: white;
+  }
